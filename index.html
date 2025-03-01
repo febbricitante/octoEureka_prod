@@ -20,7 +20,7 @@
   
 <link rel="icon" type="image/png" href="/images/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.a0d78b51c0243a0c32777bce0ad3f279f58e17fdf6bcf5c036d21e98f2521cac.css" integrity="sha256-oNeLUcAkOgwyd3vOCtPyefWOF/32vPXANtIemPJSHKw=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.97f098d52ef4f2177985c7eee12a943d4442eed4a96a50106a49950e44a86a69.css" integrity="sha256-l/CY1S708hd5hcfu4SqUPURC7tSpalAQakmVDkSoamk=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
   </head>
@@ -159,28 +159,50 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-5 is-offset-1 landing-caption">
-        <h1 class="title is-1 is-bold is-spaced">
-          Revolutionize Your Career with Indabo AI
-        </h1>
+        <h1 class="title is-1 is-bold is-spaced">Revolutionize Your Career with Indabo AI</h1>
         
-        <h2 class="subtitle is-5 is-muted">
-          Can’t Land Your Dream Job? Indabo Guides You 24/7 <br>Act TODAY
-        </h2>
+        <h2 class="subtitle is-5 is-muted">Can’t Land Your Dream Job? Indabo Guides You 24/7 <br>Act TODAY</h2>
         
         <p>
-          <a class="button cta rounded primary-btn raised" href="#">
-            Join for Free Now
-          </a>
+          <a class="button cta rounded primary-btn raised" href="#"> Join for Free Now </a>
         </p>
       </div>
       <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img src="/images/illustrations/worker.svg" alt="Description">
-        </figure>
+        <figure class="image is-4by3"><img id="hero-image" alt="Dynamic Hero Image" /></figure>
       </div>
+
+      <script>
+                      
+                      const images = [
+                        "\/images\/hero1.jpg",
+                        "\/images\/hero2.jpg",
+                        "\/images\/hero3.jpg",
+                        "\/images\/hero4.jpg",
+                        "\/images\/hero5.jpg"
+                      ];
+
+                      let index = 0; 
+                      const imgElement = document.getElementById("hero-image");
+
+                      function changeImage() {
+                imgElement.style.opacity = 0; 
+                setTimeout(() => {
+                  index = (index + 1) % images.length;
+                  imgElement.src = images[index];
+                  imgElement.style.opacity = 1; 
+                }, 888); 
+              }
+
+                
+        imgElement.src = images[index];
+
+                      
+                      setInterval(changeImage, 7000);
+      </script>
     </div>
   </div>
 </div>
+
   
 <div class="hero-foot mb-20">
   <div class="container">
