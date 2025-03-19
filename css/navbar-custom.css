@@ -1,0 +1,27 @@
+/* Custom navbar styles */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  order: 1;
+}
+
+.sidebar-button {
+  order: 2;
+  margin-left: 10px;
+}
+
+.navbar-end {
+  order: 3;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    padding: 0 10px;
+  }
+}

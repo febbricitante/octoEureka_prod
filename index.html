@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.144.2">
+	<meta name="generator" content="Hugo 0.144.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
 
-<meta property="og:url" content="http://www.indabo.com/">
+<meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="Indabo">
   <meta property="og:title" content="Indabo">
   <meta property="og:locale" content="en_us">
@@ -20,7 +20,7 @@
   
 <link rel="icon" type="image/png" href="/images/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.97f098d52ef4f2177985c7eee12a943d4442eed4a96a50106a49950e44a86a69.css" integrity="sha256-l/CY1S708hd5hcfu4SqUPURC7tSpalAQakmVDkSoamk=">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
   </head>
@@ -39,11 +39,8 @@
   
 <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <img src="/images/logos/navbar-logo.svg" alt="" width="112" height="28">
-      </a>
-      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+    <div class="navbar-brand is-flex full-width">
+      <div class="navbar-item">
         <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
           <svg width="1000px" height="1000px">
             <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
@@ -52,50 +49,32 @@
           </svg>
           <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
         </div>
-      </a>
-
-      <a role="button" style="color: #6f00ff" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
-        <span style="height: 2px" aria-hidden="true"></span>
-        <span style="height: 2px" aria-hidden="true"></span>
-        <span style="height: 2px" aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbar-menu" class="navbar-menu is-static">
-      <div class="navbar-start">
-        <a class="navbar-item is-hidden-mobile">
-          <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
-            <svg width="1000px" height="1000px">
-              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-              <path class="path2" d="M 300 500 L 700 500"></path>
-              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-            </svg>
-            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
-          </div>
-        </a>
       </div>
-
-      <div class="navbar-end">
-        <a href="/features/" class="navbar-item is-secondary"> Features </a>
-        <a href="/pricing/" class="navbar-item is-secondary"> Pricing </a>
-        <a href="https://app.indabo.com" class="navbar-item is-secondary"> Log in </a>
-        <a href="https://app.indabo.com" class="navbar-item">
-          <span class="button signup-button rounded secondary-btn raised"> Sign up </span>
-        </a>
-      </div>
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/navbar-logo.svg" alt="" width="112" height="28">
+      </a>
+      <a href="https://app.indabo.com" class="navbar-item ml-auto">
+        <span class="button signup-button rounded primary-btn">Log in / Sign up</span>
+      </a>
     </div>
   </div>
 </nav>
 
+<style>
+  .navbar-item.ml-auto {
+    margin-left: auto;
+  }
+  .navbar-brand.full-width {
+    width: 100%;
+  }
+</style>
+
   
-<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+<nav id="navbar-clone" class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <img src="/images/logos/navbar-logo.svg" alt="" width="112" height="28">
-      </a>
-      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
-        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+    <div class="navbar-brand is-flex full-width">
+      <div class="navbar-item">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
           <svg width="1000px" height="1000px">
             <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
             <path class="path2" d="M 300 500 L 700 500"></path>
@@ -103,48 +82,25 @@
           </svg>
           <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
         </div>
+      </div>
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/navbar-logo.svg" alt="" width="112" height="28">
       </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a href="https://app.indabo.com" class="navbar-item ml-auto">
+        <span class="button signup-button rounded primary-btn"> Log in / Sign up </span>
       </a>
     </div>
-
-    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
-      <div class="navbar-start">
-        <a class="navbar-item is-hidden-mobile">
-          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
-            <svg width="1000px" height="1000px">
-              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-              <path class="path2" d="M 300 500 L 700 500"></path>
-              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-            </svg>
-            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
-          </div>
-        </a>
-      </div>
-
-      <div class="navbar-end">
-        <a href="/features/" class="navbar-item is-secondary">
-          Features
-        </a>
-        <a href="/pricing/" class="navbar-item is-secondary">
-          Pricing
-        </a>
-        <a href="https://app.indabo.com" class="navbar-item is-secondary">
-          Log in
-        </a>
-        <a href="https://app.indabo.com" class="navbar-item">
-          <span class="button signup-button rounded secondary-btn raised">
-            Sign up
-          </span>
-        </a>
-      </div>
-    </div>
-</div>
+  </div>
 </nav>
+
+<style>
+  .navbar-item.ml-auto {
+    margin-left: auto;
+  }
+  .navbar-brand.full-width {
+    width: 100%;
+  }
+</style>
 
   
 <div class="hero-body">
@@ -161,49 +117,41 @@
       </div>
       <div class="column is-5 is-offset-1">
         <figure class="image is-4by3"><img id="hero-image" alt="Dynamic Hero Image" /></figure>
-      </div>
-
-      <script>
+      </div><script>
         
-        const images = [
-          "\/images\/hero1.jpg",
-          "\/images\/hero2.jpg",
-          "\/images\/hero3.jpg",
-          "\/images\/hero4.jpg",
-          "\/images\/hero5.jpg"
-        ];
+        const images = ['\/images\/hero1.jpg', '\/images\/hero2.jpg', '\/images\/hero3.jpg', '\/images\/hero4.jpg', '\/images\/hero5.jpg']
 
-        let index = 0; 
-        const imgElement = document.getElementById("hero-image");
+        let index = 0 
+        const imgElement = document.getElementById('hero-image')
 
         function changeImage() {
           
-          imgElement.style.transition = "opacity 0.8s ease-in-out";
-          imgElement.style.opacity = 0;
+          imgElement.style.transition = 'opacity 0.8s ease-in-out'
+          imgElement.style.opacity = 0
 
           setTimeout(() => {
             
-            index = (index + 1) % images.length;
-            imgElement.src = images[index];
+            index = (index + 1) % images.length
+            imgElement.src = images[index]
 
             
             setTimeout(() => {
-              imgElement.style.opacity = 1; 
-            }, 50); 
-          }, 800); 
+              imgElement.style.opacity = 1 
+            }, 50) 
+          }, 800) 
         }
 
         
-        imgElement.style.opacity = 0;
+        imgElement.style.opacity = 0
         imgElement.onload = () => {
           setTimeout(() => {
-            imgElement.style.opacity = 1; 
-          }, 100);
-        };
-        imgElement.src = images[index];
+            imgElement.style.opacity = 1 
+          }, 100)
+        }
+        imgElement.src = images[index]
 
         
-        setInterval(changeImage, 7000);
+        setInterval(changeImage, 7000)
       </script>
     </div>
   </div>
@@ -301,64 +249,6 @@
 </section>
 
     
-
-    
-    
-<section class="section is-medium" id="section2">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">You are Driven to Be the Best</h1>
-        <h3 class="subtitle is-5 is-muted">We Make It Happen</h3>
-        <div class="divider"></div>
-      </div>
-      <div class="column is-7 mt-60">
-        <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image"><img src="/images/illustrations/icons/laptop-globe.svg"></p>
-          </figure>
-          <div class="media-content mt-50">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">AI-Driven Career Blueprint</span>
-
-                <span class="icon-box-text">Unlock your potential with Fresh&rsquo;s personalized AI coaching—build your career path, get step-by-step instructions, and boost hireability. Transform your future now</span>
-              </p>
-            </div>
-          </div>
-        </article>
-        <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image"><img src="/images/illustrations/icons/doc-sync.svg"></p>
-          </figure>
-          <div class="media-content mt-50">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">Always-On Expert Guidance</span>
-
-                <span class="icon-box-text">Rely on Fresh&rsquo;s 24/7 AI coach—tailored CVs, cover letters, interview tips. Get more responses from employers, headhunters, and and coaching for promotions. Succeed anytime, anywhere</span>
-              </p>
-            </div>
-          </div>
-        </article>
-        <article class="media icon-box">
-          <figure class="media-left">
-            <p class="image"><img src="/images/illustrations/icons/mobile-feed.svg"></p>
-          </figure>
-          <div class="media-content mt-50">
-            <div class="content">
-              <p>
-                <span class="icon-box-title">Rapid Career Advancement</span>
-
-                <span class="icon-box-text">Skyrocket your career with Fresh&rsquo;s tailored tools—advance faster with personalized applications and a proven higher response rate. Achieve your goals steadily</span>
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
 
     
 
@@ -569,9 +459,6 @@
                 </a>
               </div>
             </nav>
-            <a href="https://bulma.io" target="_blank">
-              <img src="/images/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-            </a>
           </div>
         </div>
       </div>
@@ -594,41 +481,69 @@
     <ul class="sidebar-menu">
       <li class="have-children">
         <a href="#">
-          <span class="fa fa-user"></span>
-          User
+          <span class="fa fa-book"></span>
+          Features
         </a>
         <ul>
           <li>
-            <a href="/">
-              Profile
+            <a href="/features/resume-builder/">
+              Resume Builder
             </a>
           </li>
           <li>
-            <a href="/">
-              Account
+            <a href="/features/cover-letter-builder/">
+              Cover Letter Builder
             </a>
           </li>
           <li>
-            <a href="/">
-              Settings
+            <a href="/features/interview-prep/">
+              Interview Prep
+            </a>
+          </li>
+          <li>
+            <a href="/features/ai-resume-picture/">
+              AI Resume Picture
             </a>
           </li>
         </ul>
       </li>
       <li class="have-children">
         <a href="#">
-          <span class="fa fa-cog"></span>
-          Settings
+          <span class="fa fa-credit-card"></span>
+          Pricing
         </a>
         <ul>
           <li>
-            <a href="/">
-              User settings
+            <a href="/pricing/free-plan/">
+              Free Plan
             </a>
           </li>
           <li>
-            <a href="/">
-              App settings
+            <a href="/pricing/pro-plan/">
+              Pro Plan
+            </a>
+          </li>
+          <li>
+            <a href="/pricing/pay-as-you-go/">
+              Pay as you go
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="have-children">
+        <a href="#">
+          <span class="fa fa-sign-in"></span>
+          Sign in
+        </a>
+        <ul>
+          <li>
+            <a href="https://app.indabo.com">
+              Sign in
+            </a>
+          </li>
+          <li>
+            <a href="https://app.indabo.com">
+              Log in
             </a>
           </li>
         </ul>
