@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indabo</title>
-    <link>http://localhost:1313/</link>
+    <link>http://www.indabo.com/</link>
     <description>Recent content on Indabo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Mar 2025 17:37:14 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.indabo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pricing</title>
-      <link>http://localhost:1313/pricing/</link>
+      <link>http://www.indabo.com/pricing/</link>
       <pubDate>Sun, 02 Mar 2025 17:37:14 +0100</pubDate>
-      <guid>http://localhost:1313/pricing/</guid>
+      <guid>http://www.indabo.com/pricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Features</title>
-      <link>http://localhost:1313/features/</link>
+      <link>http://www.indabo.com/features/</link>
       <pubDate>Sun, 02 Mar 2025 15:28:10 +0100</pubDate>
-      <guid>http://localhost:1313/features/</guid>
+      <guid>http://www.indabo.com/features/</guid>
       <description></description>
     </item>
   </channel>
